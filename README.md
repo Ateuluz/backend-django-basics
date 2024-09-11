@@ -36,4 +36,9 @@ Will be activated with ```.\env\Scripts\activate```.
 >python manage.py startapp skills
 >```
 
+>At last, initial migrations will be made to setup the database.
+>``` bash
+>python manage.py migrate
+>```
+
 ---
