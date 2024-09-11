@@ -20,25 +20,35 @@ On this repo I'll be going over the basics of backend.
 
 [Back to Index](#index)
 
->The first thing to do is to create the environment in which the work will be done by using ```python -m venv env``` command on the terminal.
-Will be activated with ```.\env\Scripts\activate```.
+1. The first thing to do is to create the environment in which the work will be done by using ```python -m venv env``` command on the terminal.
+``` bash
+.\env\Scripts\activate
+```
 
->Now, installing `django` will be the next step, step for which the `pip install django` command will be used.
+2. Now, installing `django` will be the next step.
+``` bash
+pip install django
+```
 
->`pip freeze > requirements.txt` will allow for listing dependencies of the project.
+3. Create list of dependencies of the project.
+``` bash
+pip freeze > requirements.txt` will allow for listing dependencies of the project.
+```
 
->Now we start the project.
->>`django-admin startproject myproject`
+4. Now we start the project.
+``` bash
+django-admin startproject myproject
+```
 
->The app will be oriented towards serving as a skill list I will later use to decide what skills to learn/use for future projects.
->``` bash
->cd .\myproject\
->python manage.py startapp skills
->```
+5. The app will be oriented towards serving as a skill list I will later use to decide what skills to learn/use for future projects.
+``` bash
+cd .\myproject\
+python manage.py startapp skills
+```
 
->At last, initial migrations will be made to setup the database.
->``` bash
->python manage.py migrate
->```
+6. At last, initial migrations will be made to setup the database.
+``` bash
+python manage.py migrate
+```
 
 ---
