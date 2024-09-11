@@ -20,11 +20,14 @@ On this repo I'll be going over the basics of backend.
 
 [Back to Index](#index)
 
-The first thing to do is to create the environment in which the work will be done by using ```python -m venv env``` command on the terminal.
+>The first thing to do is to create the environment in which the work will be done by using ```python -m venv env``` command on the terminal.
 Will be activated with ```.\env\Scripts\activate```.
 
-Now, installing `django` will be the next step, step for which the `pip install django` command will be used.
+>Now, installing `django` will be the next step, step for which the `pip install django` command will be used.
 
-`pip freeze > requirements.txt` will allow for listing dependencies of the project.
+>`pip freeze > requirements.txt` will allow for listing dependencies of the project.
+
+>Now we start the project.
+>>`django-admin startproject myproject`
 
 ---
