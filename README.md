@@ -62,4 +62,10 @@ Finally, set up the initial database by running migrations:
 python manage.py migrate
 ```
 
+### 7. Run The Project
+We can now start the server and check `http://127.0.0.1:8000` to confirm a correct set up.
+```bash
+python manage.py runserver
+```
+
 ---
