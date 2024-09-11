@@ -30,4 +30,10 @@ Will be activated with ```.\env\Scripts\activate```.
 >Now we start the project.
 >>`django-admin startproject myproject`
 
+>The app will be oriented towards serving as a skill list I will later use to decide what skills to learn/use for future projects.
+>``` bash
+>cd .\myproject\
+>python manage.py startapp skills
+>```
+
 ---
