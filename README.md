@@ -25,4 +25,6 @@ Will be activated with ```.\env\Scripts\activate```.
 
 Now, installing `django` will be the next step, step for which the `pip install django` command will be used.
 
+`pip freeze > requirements.txt` will allow for listing dependencies of the project.
+
 ---
