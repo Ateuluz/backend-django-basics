@@ -85,6 +85,7 @@ INSTALLED_APPS = [
 ```
 
 ### Set Up Static
+This option is added but wi not be used as of now.
 To serve static files, add the following to `settings.py`:
 ``` py
 STATIC_URL = 'static/'
@@ -94,3 +95,14 @@ Now create the dir:
 ``` bash
 mkdir static
 ```
+
+## Section 3: Views Templates and URLs
+
+[Back to Index](#index)
+
+### Define Views
+At `skills/views.py`.
+### Create Templates
+At `skills/templates/skills/skills_list.html`.
+### Set Up URL Configuration
+At `skills/urls.py` and `myproject/urls.py`.
