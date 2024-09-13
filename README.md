@@ -12,7 +12,8 @@ On this repo I'll be going over the basics of backend.
 
 ## Index
 
-1. [Section 1: Getting Started](#getting-started)
+1. [Section 1: Getting Started](#section-1-getting-started)
+2. [Section 2: Project Configuration](#section-2-project-configuration)
 
 ---
 
@@ -69,3 +70,27 @@ python manage.py runserver
 ```
 
 ---
+
+## Section 2: Project Configuration
+
+[Back to Index](#index)
+
+### Register Skills App
+To include the skills app in the project, add it to the `INSTALLED_APPS` in `settings.py`.
+``` py
+INSTALLED_APPS = [
+    # Other
+    'skills',
+]
+```
+
+### Set Up Static
+To serve static files, add the following to `settings.py`:
+``` py
+STATIC_URL = 'static/'
+STATICFILES_DIRS = [BASE_DIR / 'static']
+```
+Now create the dir:
+``` bash
+mkdir static
+```
